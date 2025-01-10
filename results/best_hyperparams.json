@@ -1,0 +1,9 @@
+{
+    "best_hyperparameters": {
+        "C": 796.5431903172462,
+        "max_iter": "265",
+        "kernel": "poly",
+        "gamma": 5.968541894449077
+    },
+    "best_validation_accuracy": 0.9832869080779945
+}
