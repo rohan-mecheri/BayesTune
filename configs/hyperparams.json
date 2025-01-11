@@ -1,0 +1,29 @@
+{
+  "hyperparameters": [
+    {
+      "name": "C",
+      "type": "Real",
+      "min": 0.001,
+      "max": 1000,
+      "log": true
+    },
+    {
+      "name": "max_iter",
+      "type": "Integer",
+      "min": 100,
+      "max": 1000
+    },
+    {
+      "name": "kernel",
+      "type": "Categorical",
+      "categories": ["linear", "rbf", "poly"]
+    },
+    {
+      "name": "gamma",
+      "type": "Real",
+      "min": 0.0001,
+      "max": 10,
+      "log": true
+    }
+  ]
+}
